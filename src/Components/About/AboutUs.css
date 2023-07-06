@@ -1,0 +1,13 @@
+/* CSS styles for the grayscale image */
+.grayscale-image {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+    border-radius: 5px;
+    
+  }
+  
+  /* CSS styles for the colored image on hover */
+  .grayscale-image:hover {
+    filter: grayscale(0%);
+  }
+  

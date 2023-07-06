@@ -1,0 +1,60 @@
+.imagesize
+{
+    width: 100%; /* Set the desired width for the image */
+    height: auto; /* Maintain the aspect ratio */
+}
+.button {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  .carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+  .carousel-caption .makeToTopHeading {
+    font-family: 'Josephin Sans';
+    letter-spacing: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+  }
+  
+  .carousel-caption .makeToTopPara {
+    font-family: 'Courier New';
+    padding-top: 20px;
+    letter-spacing: 8px;
+    color: #fff;
+
+  }
+  .makeToTopWhite .makeToTopHeadingDark {
+    font-family: 'Josephin Sans';
+    letter-spacing: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+  }
+  
+  .makeToTopWhite .makeToTopParaDark {
+    font-family: 'Courier New';
+    padding-top: 20px;
+    letter-spacing: 8px;
+    color: #000;
+
+  }
+  

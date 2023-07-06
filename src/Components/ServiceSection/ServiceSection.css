@@ -1,0 +1,17 @@
+/* CSS styles for the grayscale image */
+.grayscale-image {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+    padding: 20px;
+    
+  }
+  
+  /* CSS styles for the colored image on hover */
+  .grayscale-image:hover {
+    filter: grayscale(0%);
+    
+  }
+  .runningText
+  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }

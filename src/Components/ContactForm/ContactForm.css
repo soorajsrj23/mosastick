@@ -1,0 +1,73 @@
+input {
+  box-shadow: none;
+  width: 400px;
+  height: 40px;
+  border: 1px solid darkgray;
+  padding: 8px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
+
+.whiteclass {
+  color: azure;
+}
+
+.bgdark {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+input:active,
+input:focus {
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.bgdarkdescrption {
+  background-color: #1a1a1a;
+  color: white;
+  height: max-content;
+  width: max-content;
+  align-items: center;
+  justify-content: center;
+}
+
+/* For small screens */
+@media screen and (max-width: 767px) {
+  input {
+    width: 100%;
+  }
+
+  .bgdarkdescrption {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+}
+
+/* For medium screens */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  input {
+    width: 300px;
+  }
+
+  .bgdarkdescrption {
+    width: 300px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+}
+
+/* For large screens */
+@media screen and (min-width: 992px) {
+  input {
+    width: 400px;
+  }
+
+  .bgdarkdescrption {
+    width: 400px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+}

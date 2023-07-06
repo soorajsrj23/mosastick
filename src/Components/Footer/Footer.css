@@ -1,0 +1,28 @@
+
+.filled-icon {
+    transition: transform 7.8s ease-in-out; 
+  }
+  
+  .filled-icon:hover {
+    transform: translateY(-10px);/* Move the icons 10 pixels up on hover */
+  }
+  .containercls {
+    background-color: #1a1a1a; /* Initial background color */
+    color: #fff;
+    align-items: center;
+    position: absolute;
+  }
+  .my-link {
+    color: darkgrey;
+    text-decoration: none;
+  }
+  
+  .my-link:hover {
+    color: white;
+  }
+  
+  .my-link:active {
+    color: white;
+    text-decoration: none;
+  }
+  

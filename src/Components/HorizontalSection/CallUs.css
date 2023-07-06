@@ -1,0 +1,53 @@
+.MyComponent {
+    height: 400px;
+    background-image: url("../../assets//bg7.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .rightSide {
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .MyComponent {
+      height: auto;
+      flex-direction: column;
+    }
+  
+    .rightSide {
+      margin-top: 20px;
+    }
+  }
+  
+  h4 {
+    font-family: 'Hind', 'Arial', 'sans-serif';
+    font-weight: 800;
+    letter-spacing: 10px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 22px;
+    
+  }
+  
+  p {
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dimgray;
+  }
+  
+  Button {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+  }
+  
